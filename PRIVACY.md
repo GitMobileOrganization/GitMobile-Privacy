@@ -1,8 +1,8 @@
-# Git Mobile 隐私政策
+# GitMobile 隐私政策
 
-**生效日期：2026 年 11 月 15 日　　最后更新：2026 年 11 月 15 日**
+**生效日期：2026 年 11 月 15 日　　最后更新：2026 年 11 月 21 日**
 
-Git Mobile 会在你的手机上运行一个 Git 服务端，把仓库交给同一网络里的设备访问；你也可以把它当作客户端去连接别的 Git 服务器，或开启 AI 助手。这些功能决定了哪些信息留在手机、哪些会发给别人。本政策逐项说明。
+GitMobile 会在你的手机上运行一个 Git 服务端，把仓库交给同一网络里的设备访问；你也可以把它当作客户端去连接别的 Git 服务器，或开启 AI 助手。这些功能决定了哪些信息留在手机、哪些会发给别人。本政策逐项说明。
 
 你可以通过下列标题了解我们的做法。如有疑问，请通过文末方式联系我们。
 
@@ -31,7 +31,7 @@ Git Mobile 会在你的手机上运行一个 Git 服务端，把仓库交给同�
 
 ## 我们是谁
 
-Git Mobile（下称「本应用」）是一款 Android 平台的本地 Git 服务端兼客户端，由 Git Mobile 的独立开发者提供，通过 Google Play 分发。
+GitMobile（下称「本应用」）是一款 Android 平台的本地 Git 服务端兼客户端，由 GitMobile 的独立开发者提供，通过 Google Play 分发。
 
 我们不是云服务提供者：我们不运营接收你仓库、账号或审计记录的服务器。本政策所述的处理，绝大多数发生在你的设备上。你可以通过 Google Play 商品页「开发者联系信息」中公布的邮箱与我们联系。
 
@@ -101,7 +101,7 @@ Git Mobile（下称「本应用」）是一款 Android 平台的本地 Git 服�
 
 ## 客户端连接与远程服务器
 
-当你在客户端页填写服务器地址时，应用会把该地址与你的登录凭据发往这台服务器以完成认证。这台服务器可能是另一台运行 Git Mobile 的手机、你自建的 Git 服务，或他人提供的服务。它对数据的处理适用其运营者的政策，不在本政策范围内。
+当你在客户端页填写服务器地址时，应用会把该地址与你的登录凭据发往这台服务器以完成认证。这台服务器可能是另一台运行 GitMobile 的手机、你自建的 Git 服务，或他人提供的服务。它对数据的处理适用其运营者的政策，不在本政策范围内。
 
 应用不会把你的凭据发往我们，因为我们没有这样的服务器。
 
@@ -212,4 +212,4 @@ API Key 只以 Keystore 密文保存在手机，由后台服务解密后调用�
 
 ---
 
-**Summary (English)**: This policy explains how Git Mobile handles your information. Git Mobile is a local Git server and client for Android, published by its independent developer, who does not operate any backend that receives your repositories, accounts or audit records. The app has no cloud account and does not ask for your name, email address, phone number or postal address. Repositories live in the app's private storage (`files/repos`); the local admin and member accounts, argon2-hashed passwords and repository grants live in the app's private database (`files/turso/audit.db`); the audit log records time, user, repository, action, result, the visiting client's IP address and HTTP method, and can be cleared or capped. When used as a client, the app stores server address and username in plain text and stores passwords or SSH private keys only as Android Keystore ciphertext. HTTPS certificates and the SSH host key are generated and kept on the device. When the server is running it listens on all interfaces by default (a loopback-only mode is available), and devices on the same network that pass authentication can read or push to the repositories you grant. The app performs no port forwarding or relay; exposing the service to the internet is your decision. Optional AI features are admin-only and off by default: you supply an OpenAI-compatible endpoint and API key, requests go directly from your phone to that endpoint, semantic indexing sends chunked repository text to your embedding provider, and the assistant sends your conversation and tool results (which may include repository content) to your chat provider; those providers process the content under their own policies. The app contains no advertising, analytics, crash-reporting or tracking SDK. Because it is distributed through Google Play, Google collects Android vitals at platform level as an independent controller; you can turn that off in Settings → Google → Usage & diagnostics. The in-app diagnostic report is generated only when you tap Export, contains configuration facts such as version, private path, service state and certificate fingerprint, never passwords, tokens or repository objects, and leaves the app only through the system share sheet you choose. Data is not sold or shared as defined by the CCPA/CPRA. Legal bases under the GDPR are performance of the service you requested (Article 6(1)(b)) and your consent for optional permissions, AI features and diagnostic export (Article 6(1)(a)), which you can withdraw at any time. Uninstalling the app deletes its local data; system backups, if enabled on your device, are managed by Android and your cloud account, not by us.
+**Summary (English)**: This policy explains how GitMobile handles your information. GitMobile is a local Git server and client for Android, published by its independent developer, who does not operate any backend that receives your repositories, accounts or audit records. The app has no cloud account and does not ask for your name, email address, phone number or postal address. Repositories live in the app's private storage (`files/repos`); the local admin and member accounts, argon2-hashed passwords and repository grants live in the app's private database (`files/turso/audit.db`); the audit log records time, user, repository, action, result, the visiting client's IP address and HTTP method, and can be cleared or capped. When used as a client, the app stores server address and username in plain text and stores passwords or SSH private keys only as Android Keystore ciphertext. HTTPS certificates and the SSH host key are generated and kept on the device. When the server is running it listens on all interfaces by default (a loopback-only mode is available), and devices on the same network that pass authentication can read or push to the repositories you grant. The app performs no port forwarding or relay; exposing the service to the internet is your decision. Optional AI features are admin-only and off by default: you supply an OpenAI-compatible endpoint and API key, requests go directly from your phone to that endpoint, semantic indexing sends chunked repository text to your embedding provider, and the assistant sends your conversation and tool results (which may include repository content) to your chat provider; those providers process the content under their own policies. The app contains no advertising, analytics, crash-reporting or tracking SDK. Because it is distributed through Google Play, Google collects Android vitals at platform level as an independent controller; you can turn that off in Settings → Google → Usage & diagnostics. The in-app diagnostic report is generated only when you tap Export, contains configuration facts such as version, private path, service state and certificate fingerprint, never passwords, tokens or repository objects, and leaves the app only through the system share sheet you choose. Data is not sold or shared as defined by the CCPA/CPRA. Legal bases under the GDPR are performance of the service you requested (Article 6(1)(b)) and your consent for optional permissions, AI features and diagnostic export (Article 6(1)(a)), which you can withdraw at any time. Uninstalling the app deletes its local data; system backups, if enabled on your device, are managed by Android and your cloud account, not by us.

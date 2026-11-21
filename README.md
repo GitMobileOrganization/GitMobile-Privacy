@@ -1,6 +1,6 @@
-# Git Mobile Privacy Policy
+# GitMobile Privacy Policy
 
-Git Mobile 的在线隐私政策页面，托管在 GitHub Pages，供 Google Play 商店页与应用说明引用。
+GitMobile 的在线隐私政策页面，托管在 GitHub Pages，供 Google Play 商店页与应用说明引用。
 
 ## 文件
 
