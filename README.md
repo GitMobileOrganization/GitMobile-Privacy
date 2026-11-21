@@ -2,6 +2,8 @@
 
 GitMobile 的在线隐私政策页面，托管在 GitHub Pages，供 Google Play 商店页与应用说明引用。
 
+当前线上地址：`https://gitmobileorganization.github.io/GitMobile-Privacy/`（组织 `GitMobileOrganization`）。
+
 ## 文件
 
 | 文件 | 说明 |
