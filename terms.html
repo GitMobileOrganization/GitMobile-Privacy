@@ -15,7 +15,8 @@ body{margin:0;background:#f6f8fb;color:#1b1f24;font:16px/1.78 -apple-system,Blin
 .wrap{max-width:860px;margin:0 auto;padding:34px 20px 64px}
 header{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:6px}
 h1{font-size:26px;line-height:1.35;margin:0;font-weight:700;letter-spacing:.2px}
-.meta{color:#66707d;font-size:13.5px;margin:6px 0 20px}
+.meta{display:flex;flex-wrap:wrap;gap:2px 14px;color:#66707d;font-size:13.5px;margin:6px 0 20px}
+.meta span{white-space:nowrap}
 select{font:inherit;font-size:14px;padding:8px 10px;border-radius:8px;border:1px solid #d5dce6;background:#fff;color:#1b1f24;min-width:170px}
 h2{font-size:19px;margin:30px 0 10px;padding-top:6px;font-weight:700;line-height:1.4}
 p{margin:0 0 14px}
@@ -53,7 +54,7 @@ a:hover{text-decoration:underline}
 </header>
 
 <section data-lang="zh">
-  <div class="meta">生效日期：2026 年 11 月 24 日　·　最后更新：2026 年 11 月 24 日</div>
+  <div class="meta"><span>生效日期：2026 年 11 月 24 日</span><span>最后更新：2026 年 11 月 24 日</span></div>
   <p>欢迎使用 GitMobile。本协议是你与 GitMobile 开发者之间关于 GitMobile Android 应用及其本机服务的协议。下载、安装或继续使用本应用，即表示你已阅读并同意本协议；如果你不同意，请停止使用并卸载本应用。</p>
 
   <h2>1. 服务说明</h2>
@@ -114,7 +115,7 @@ a:hover{text-decoration:underline}
 </section>
 
 <section data-lang="en" hidden>
-  <div class="meta">Effective and last updated: November 24, 2026</div>
+  <div class="meta"><span>Effective and last updated: November 24, 2026</span></div>
   <p>Welcome to GitMobile. These Terms of Service (“Terms”) are an agreement between you and the GitMobile developer regarding the GitMobile Android application and its on-device services. By downloading, installing, or continuing to use the app, you confirm that you have read and agree to these Terms. If you do not agree, stop using the app and uninstall it.</p>
 
   <h2>1. The Service</h2>
